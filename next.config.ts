@@ -5,7 +5,6 @@ import createNextIntlPlugin from 'next-intl/plugin'
 import { NextConfig } from 'next'
 
 const isProd = process.env.MODE === 'prod'
-const AUTH_URL = process.env.AUTH_URL || 'http://localhost:1234'
 
 const withNextIntl = createNextIntlPlugin()
 
@@ -33,7 +32,7 @@ const nextConfig: NextConfig = {
         {
           key: 'Content-Security-Policy',
           value:
-            "frame-src 'self' https://www.google.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com https://www.gstatic.com; connect-src 'self';",
+            'frame-src "self" https://www.google.com; script-src "self" "unsafe-inline" "unsafe-eval" https://www.google.com https://www.gstatic.com; connect-src "self";',
         },
       ],
     },
