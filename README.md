@@ -79,7 +79,7 @@ We follow the **QuCore Elite** standard:
 ## License & Authorship
 
 Created and maintained by **Artem Zhytovoz**.
-Distributed under the **GNU GPL v3** license.
+Distributed under the **PolyForm Noncommercial 1.0.0** license.
 
 ---
 
